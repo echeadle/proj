@@ -10,4 +10,6 @@ jobs:
     uses: ./.github/workflows/test-django-mysql.yaml
     secrets:
       DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
+        required: true
       MYSQL_ROOT_PASSWORD: ${{ secrets.MYSQL_ROOT_PASSWORD }}
+        required: true
