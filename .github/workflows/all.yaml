@@ -8,3 +8,5 @@ on:
 jobs:
   test_django:
     uses: ./.github/workflows/test-django-mysql.yaml
+    DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
+    MYSQL_ROOT_PASSWORD: ${{ secrets.MYSQL_ROOT_PASSWORD }}
