@@ -1,0 +1,8 @@
+name: 1 - Test Django $ Mysql
+on:
+  workflow_call:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
