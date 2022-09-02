@@ -57,5 +57,5 @@ jobs:
           DATABASE_BACKEND: ${{ env.DATABASE_BACKEND }}
           DJANGO_SECRET_KEY: ${{ env.DJANGO_SECRET_KEY }}
         run: |
-          python manage.py test(venv)
+          python manage.py test
 
