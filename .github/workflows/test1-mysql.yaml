@@ -1,4 +1,4 @@
-name: 1 - Test Django $ Mysql
+name: 1 - Test Django & Mysql
 on:
   workflow_call:
   workflow_dispatch:
